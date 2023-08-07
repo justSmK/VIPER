@@ -7,44 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB120E102A0B7A29003523ED /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120E0F2A0B7A29003523ED /* DateService.swift */; };
-		BB120E142A0B7A48003523ED /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120E132A0B7A48003523ED /* WeatherService.swift */; };
-		BB120E172A0B805A003523ED /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120E162A0B805A003523ED /* WelcomePresenter.swift */; };
-		BB120E192A0B81BD003523ED /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120E182A0B81BD003523ED /* WelcomeRouter.swift */; };
-		BB120E1B2A0B8203003523ED /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120E1A2A0B8203003523ED /* WelcomeInteractor.swift */; };
-		BB120E1D2A0B8290003523ED /* WelcomeModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120E1C2A0B8290003523ED /* WelcomeModuleBuilder.swift */; };
-		BB120E202A0B89F9003523ED /* ImageViewerModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120E1F2A0B89F9003523ED /* ImageViewerModuleBuilder.swift */; };
-		BB120E222A0B8A05003523ED /* ImageViewerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120E212A0B8A05003523ED /* ImageViewerPresenter.swift */; };
-		BB120E242A0B8A0D003523ED /* ImageViewerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120E232A0B8A0D003523ED /* ImageViewerRouter.swift */; };
-		BB120E262A0B8A17003523ED /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120E252A0B8A17003523ED /* ImageViewerViewController.swift */; };
-		BB120E282A0B8A23003523ED /* ImageViewerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120E272A0B8A23003523ED /* ImageViewerInteractor.swift */; };
-		BB120E2A2A0B8CC9003523ED /* ImageViewer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB120E292A0B8CC9003523ED /* ImageViewer.storyboard */; };
+		BB971E052A8120CE00B80FA9 /* PersonEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB971E042A8120CE00B80FA9 /* PersonEntity.swift */; };
+		BB971E082A8120E900B80FA9 /* GreetingLayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB971E072A8120E900B80FA9 /* GreetingLayerData.swift */; };
+		BB971E0B2A81217E00B80FA9 /* GreetingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB971E0A2A81217E00B80FA9 /* GreetingInteractor.swift */; };
+		BB971E0D2A81221C00B80FA9 /* GreetingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB971E0C2A81221C00B80FA9 /* GreetingPresenter.swift */; };
+		BB971E0F2A81228F00B80FA9 /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB971E0E2A81228F00B80FA9 /* GreetingViewController.swift */; };
+		BB971E112A81238500B80FA9 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB971E102A81238500B80FA9 /* ModuleBuilder.swift */; };
 		BBAA12262A0B795A003813C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12252A0B795A003813C6 /* AppDelegate.swift */; };
 		BBAA12282A0B795A003813C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12272A0B795A003813C6 /* SceneDelegate.swift */; };
-		BBAA122A2A0B795A003813C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12292A0B795A003813C6 /* ViewController.swift */; };
-		BBAA122D2A0B795A003813C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAA122B2A0B795A003813C6 /* Main.storyboard */; };
 		BBAA122F2A0B795B003813C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAA122E2A0B795B003813C6 /* Assets.xcassets */; };
 		BBAA12322A0B795B003813C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12302A0B795B003813C6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB120E0F2A0B7A29003523ED /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
-		BB120E132A0B7A48003523ED /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
-		BB120E162A0B805A003523ED /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
-		BB120E182A0B81BD003523ED /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
-		BB120E1A2A0B8203003523ED /* WelcomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractor.swift; sourceTree = "<group>"; };
-		BB120E1C2A0B8290003523ED /* WelcomeModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeModuleBuilder.swift; sourceTree = "<group>"; };
-		BB120E1F2A0B89F9003523ED /* ImageViewerModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerModuleBuilder.swift; sourceTree = "<group>"; };
-		BB120E212A0B8A05003523ED /* ImageViewerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerPresenter.swift; sourceTree = "<group>"; };
-		BB120E232A0B8A0D003523ED /* ImageViewerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerRouter.swift; sourceTree = "<group>"; };
-		BB120E252A0B8A17003523ED /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
-		BB120E272A0B8A23003523ED /* ImageViewerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerInteractor.swift; sourceTree = "<group>"; };
-		BB120E292A0B8CC9003523ED /* ImageViewer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageViewer.storyboard; sourceTree = "<group>"; };
+		BB971E042A8120CE00B80FA9 /* PersonEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonEntity.swift; sourceTree = "<group>"; };
+		BB971E072A8120E900B80FA9 /* GreetingLayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingLayerData.swift; sourceTree = "<group>"; };
+		BB971E0A2A81217E00B80FA9 /* GreetingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingInteractor.swift; sourceTree = "<group>"; };
+		BB971E0C2A81221C00B80FA9 /* GreetingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingPresenter.swift; sourceTree = "<group>"; };
+		BB971E0E2A81228F00B80FA9 /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
+		BB971E102A81238500B80FA9 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 		BBAA12222A0B795A003813C6 /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAA12252A0B795A003813C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBAA12272A0B795A003813C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BBAA12292A0B795A003813C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BBAA122C2A0B795A003813C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBAA122E2A0B795B003813C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBAA12312A0B795B003813C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBAA12332A0B795B003813C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +50,7 @@
 			children = (
 				BBAA12252A0B795A003813C6 /* AppDelegate.swift */,
 				BBAA12272A0B795A003813C6 /* SceneDelegate.swift */,
+				BB971E102A81238500B80FA9 /* ModuleBuilder.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -78,41 +63,6 @@
 				BBAA12332A0B795B003813C6 /* Info.plist */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		BB120E0E2A0B7A16003523ED /* API */ = {
-			isa = PBXGroup;
-			children = (
-				BB120E0F2A0B7A29003523ED /* DateService.swift */,
-				BB120E132A0B7A48003523ED /* WeatherService.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		BB120E152A0B7FFB003523ED /* Welcome */ = {
-			isa = PBXGroup;
-			children = (
-				BBAA122B2A0B795A003813C6 /* Main.storyboard */,
-				BBAA12292A0B795A003813C6 /* ViewController.swift */,
-				BB120E162A0B805A003523ED /* WelcomePresenter.swift */,
-				BB120E182A0B81BD003523ED /* WelcomeRouter.swift */,
-				BB120E1A2A0B8203003523ED /* WelcomeInteractor.swift */,
-				BB120E1C2A0B8290003523ED /* WelcomeModuleBuilder.swift */,
-			);
-			path = Welcome;
-			sourceTree = "<group>";
-		};
-		BB120E1E2A0B899E003523ED /* ImageViewer */ = {
-			isa = PBXGroup;
-			children = (
-				BB120E1F2A0B89F9003523ED /* ImageViewerModuleBuilder.swift */,
-				BB120E212A0B8A05003523ED /* ImageViewerPresenter.swift */,
-				BB120E232A0B8A0D003523ED /* ImageViewerRouter.swift */,
-				BB120E252A0B8A17003523ED /* ImageViewerViewController.swift */,
-				BB120E272A0B8A23003523ED /* ImageViewerInteractor.swift */,
-				BB120E292A0B8CC9003523ED /* ImageViewer.storyboard */,
-			);
-			path = ImageViewer;
 			sourceTree = "<group>";
 		};
 		BBAA12192A0B795A003813C6 = {
@@ -134,9 +84,11 @@
 		BBAA12242A0B795A003813C6 /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				BB120E1E2A0B899E003523ED /* ImageViewer */,
-				BB120E152A0B7FFB003523ED /* Welcome */,
-				BB120E0E2A0B7A16003523ED /* API */,
+				BB971E042A8120CE00B80FA9 /* PersonEntity.swift */,
+				BB971E072A8120E900B80FA9 /* GreetingLayerData.swift */,
+				BB971E0A2A81217E00B80FA9 /* GreetingInteractor.swift */,
+				BB971E0C2A81221C00B80FA9 /* GreetingPresenter.swift */,
+				BB971E0E2A81228F00B80FA9 /* GreetingViewController.swift */,
 				BB120E0C2A0B79A0003523ED /* Application */,
 				BB120E0D2A0B79B1003523ED /* Resources */,
 			);
@@ -203,8 +155,6 @@
 			files = (
 				BBAA12322A0B795B003813C6 /* LaunchScreen.storyboard in Resources */,
 				BBAA122F2A0B795B003813C6 /* Assets.xcassets in Resources */,
-				BB120E2A2A0B8CC9003523ED /* ImageViewer.storyboard in Resources */,
-				BBAA122D2A0B795A003813C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,34 +165,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB120E242A0B8A0D003523ED /* ImageViewerRouter.swift in Sources */,
-				BB120E142A0B7A48003523ED /* WeatherService.swift in Sources */,
-				BB120E262A0B8A17003523ED /* ImageViewerViewController.swift in Sources */,
-				BB120E1B2A0B8203003523ED /* WelcomeInteractor.swift in Sources */,
-				BB120E172A0B805A003523ED /* WelcomePresenter.swift in Sources */,
-				BB120E222A0B8A05003523ED /* ImageViewerPresenter.swift in Sources */,
-				BBAA122A2A0B795A003813C6 /* ViewController.swift in Sources */,
+				BB971E082A8120E900B80FA9 /* GreetingLayerData.swift in Sources */,
+				BB971E0D2A81221C00B80FA9 /* GreetingPresenter.swift in Sources */,
+				BB971E052A8120CE00B80FA9 /* PersonEntity.swift in Sources */,
+				BB971E112A81238500B80FA9 /* ModuleBuilder.swift in Sources */,
 				BBAA12262A0B795A003813C6 /* AppDelegate.swift in Sources */,
-				BB120E1D2A0B8290003523ED /* WelcomeModuleBuilder.swift in Sources */,
-				BB120E192A0B81BD003523ED /* WelcomeRouter.swift in Sources */,
+				BB971E0F2A81228F00B80FA9 /* GreetingViewController.swift in Sources */,
 				BBAA12282A0B795A003813C6 /* SceneDelegate.swift in Sources */,
-				BB120E102A0B7A29003523ED /* DateService.swift in Sources */,
-				BB120E282A0B8A23003523ED /* ImageViewerInteractor.swift in Sources */,
-				BB120E202A0B89F9003523ED /* ImageViewerModuleBuilder.swift in Sources */,
+				BB971E0B2A81217E00B80FA9 /* GreetingInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BBAA122B2A0B795A003813C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBAA122C2A0B795A003813C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BBAA12302A0B795B003813C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -380,7 +316,6 @@
 				INFOPLIST_FILE = VIPER/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -408,7 +343,6 @@
 				INFOPLIST_FILE = VIPER/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
