@@ -19,7 +19,7 @@ class GreetingInteractor: GreetingProvider {
     weak var output: GreetingOutput?
     
     func provideGreetingData() {
-        let person = Person(firstName: "Wasin", lastName: "Thonkaew")
+        let person = Person(firstName: "Wasin", lastName: "Thonkaew") // usually comes from data access layer
         let subject = person.firstName + " " + person.lastName
         let greeting = GreetingData(greeting: "Hello", subject: subject)
         self.output?.receiveGreetingData(greetingData: greeting)

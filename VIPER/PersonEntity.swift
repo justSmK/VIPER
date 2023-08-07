@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Entity (usually more complex e.g. NSManagedObject)
 struct Person {
     let firstName: String
     let lastName: String

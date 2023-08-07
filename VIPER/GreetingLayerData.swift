@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Transport data structure (not Entity)
 struct GreetingData {
     let greeting: String
     let subject: String

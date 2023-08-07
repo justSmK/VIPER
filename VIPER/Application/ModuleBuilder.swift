@@ -13,6 +13,7 @@ protocol AssemblyModuleBuilderProtocol {
 }
 
 class AssemblyModuleBuilder: AssemblyModuleBuilderProtocol {
+    // Assembling of VIPER module, without Router
     func createMainModule() -> UIViewController {
         let view = GreetingViewController()
         let presenter = GreetingPresenter()
